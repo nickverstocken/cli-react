@@ -14,7 +14,7 @@ let functional;
 let observable;
 let stylesheet;
 program
-    .version('2.0.0')
+    .version('2.0.2')
     .command('init <dir>')
     .option('-T , --typscript', 'Install with typescript')
     .action(createReact);

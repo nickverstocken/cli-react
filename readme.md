@@ -19,7 +19,7 @@ sass (who doesn't love Sass right?!).
 And the second reason was that I had to manually copy-paste the code when I wanted to create a component. 
 It is time consuming and redudant. 
 
-You can generate two components: [Functional and Class Components](https://facebook.github.io/react/docs/components-and-props.html#functional-and-class-components), the basic structure of either could always look the same, in one project:
+You can generate two components: [Functional and Class Components](https://facebook.github.io/react/docs/components-and-props.html#functional-and-class-components) :
 
 Functional Component:
 
@@ -38,7 +38,6 @@ Comp.propTypes = {
 }
 
 export default Comp;
-export default Cmp
 ```  
 
 Class Component:
@@ -119,16 +118,16 @@ You can also give paths to the component name for example :
 >```rct gc component/comp1``` => will create a component within the component folder (and make it if it doesn't exist). 
 #### Options
 Create a functional component
->```rct gc <ComponentName> --f``` <b>or</b> ```rct gc <ComponentName> --functional```
+>```rct gc <ComponentName> -f``` <b>or</b> ```rct gc <ComponentName> --functional```
 
 Create a component with css
->```rct gc <ComponentName> --s``` <b>or</b> ```rct gc <ComponentName> --style```
+>```rct gc <ComponentName> -s``` <b>or</b> ```rct gc <ComponentName> --style```
 
 Create a component and make it an oberserver
->```rct gc <ComponentName> --o``` <b>or</b> ```rct gc <ComponentName> --observable```
+>```rct gc <ComponentName> -o``` <b>or</b> ```rct gc <ComponentName> --observable```
 
 Create a component but don't wrap it in a folder
->```rct gc <ComponentName> --n``` <b>or</b> ```rct gc <ComponentName> --nofolder```
+>```rct gc <ComponentName> -n``` <b>or</b> ```rct gc <ComponentName> --nofolder```
 
 
 
