@@ -47,7 +47,7 @@ function createReactApp() {
     return new Promise(resolve => {
         if (appName) {
             console.log("\nCreating react app...".cyan);
-            shell.exec(`create-react-app ${appName}`, () => {
+            shell.exec(`./node_modules/create-react-app/index.js ${appName}`, () => {
                 console.log("Finished creating react app".green);
                 resolve(true)
             })

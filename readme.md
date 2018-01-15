@@ -70,7 +70,7 @@ You can generate these files anywhere. If it detects that the project directory 
 
 Run
 
->```rct <ComponentName> init```
+>```rct init <ProjectName>```
 
 This will inializa a new project with the boilerplate in place with following project structure : <br>
 ```
