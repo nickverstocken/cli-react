@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71cbc260-188a-4452-a135-f77249d28a86" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
@@ -18,10 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="255">
               <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
@@ -41,36 +40,16 @@
       <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="17">
+              <caret line="192" column="17" lean-forward="false" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
               <folding>
-                <marker date="1516026897652" expanded="true" signature="0:7518" ph="{&quot;name&quot;: &quot;cli-react&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="109:7516" ph="{...}" />
-                <marker date="1516026897652" expanded="true" signature="4903:4911" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="4931:5101" ph="{&quot;version&quot;: &quot;1.0.5&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="5118:5338" ph="{&quot;version&quot;: &quot;0.6.2&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="5296:5332" ph="{&quot;resolve&quot;: &quot;1.5.0&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="5355:6173" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="5533:5626" ph="{&quot;colors&quot;: &quot;0.5.1&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="5650:6167" ph="{...}" />
-                <marker date="1516026897652" expanded="true" signature="5670:5848" ph="{&quot;version&quot;: &quot;0.5.1&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="5871:6159" ph="{&quot;version&quot;: &quot;0.2.14&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="6071:6149" ph="{&quot;lru-cache&quot;: &quot;2.7.3&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="6190:6475" ph="{&quot;version&quot;: &quot;1.5.0&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="6430:6469" ph="{&quot;path-parse&quot;: &quot;1.0.5&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="6492:6767" ph="{&quot;version&quot;: &quot;0.7.8&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="6670:6761" ph="{&quot;glob&quot;: &quot;7.1.2&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="6784:6948" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="6968:7138" ph="{&quot;version&quot;: &quot;1.4.4&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="7160:7334" ph="{&quot;version&quot;: &quot;0.1.1&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="7350:7512" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
-                <marker date="1516026897652" expanded="true" signature="7504:7512" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
+                <marker date="1516029963539" expanded="true" signature="38426:38434" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
@@ -84,18 +63,18 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <first_editor relative-caret-position="119">
+                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding>
-                  <marker date="1516028207853" expanded="true" signature="1006:1074" ph="..." />
-                  <marker date="1516028207853" expanded="true" signature="1095:1151" ph="{...}" />
-                  <marker date="1516028207853" expanded="true" signature="1169:1172" ph="{...}" />
-                  <marker date="1516028207853" expanded="true" signature="1241:1249" ph="..." />
-                  <marker date="1516028207853" expanded="true" signature="1241:1309" ph="..." />
-                  <marker date="1516028207853" expanded="true" signature="1340:1469" ph="{...}" />
-                  <marker date="1516028207853" expanded="true" signature="1362:1385" ph="{...}" />
-                  <marker date="1516028207853" expanded="true" signature="1396:1467" ph="{...}" />
-                  <marker date="1516028207853" expanded="true" signature="1487:1490" ph="{...}" />
+                  <marker date="1516030186409" expanded="true" signature="926:994" ph="..." />
+                  <marker date="1516030186409" expanded="true" signature="1015:1071" ph="{...}" />
+                  <marker date="1516030186409" expanded="true" signature="1089:1092" ph="{...}" />
+                  <marker date="1516030186409" expanded="true" signature="1161:1169" ph="..." />
+                  <marker date="1516030186409" expanded="true" signature="1161:1229" ph="..." />
+                  <marker date="1516030186409" expanded="true" signature="1260:1389" ph="{...}" />
+                  <marker date="1516030186409" expanded="true" signature="1282:1305" ph="{...}" />
+                  <marker date="1516030186409" expanded="true" signature="1316:1387" ph="{...}" />
+                  <marker date="1516030186409" expanded="true" signature="1407:1410" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -139,10 +118,10 @@
         <option value="$PROJECT_DIR$/templates/components/home/home.js" />
         <option value="$PROJECT_DIR$/test/Test.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -248,16 +227,15 @@
       <workItem from="1515886601193" duration="1933000" />
       <workItem from="1516002778729" duration="2825000" />
       <workItem from="1516017344087" duration="1737000" />
-      <workItem from="1516026583335" duration="1648000" />
+      <workItem from="1516026583335" duration="3663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78599000" />
+    <option name="totallyTimeSpent" value="80614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27635783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -266,7 +244,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2615894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2615894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -402,32 +380,20 @@
     <entry file="file://$PROJECT_DIR$/create-react-app/index.js" />
     <entry file="file://$PROJECT_DIR$/create-react-app/createReactApp.js" />
     <entry file="file://$PROJECT_DIR$/create-react-app/package.json" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="17">
+          <caret line="192" column="17" lean-forward="false" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
           <folding>
-            <marker date="1516026897652" expanded="true" signature="0:7518" ph="{&quot;name&quot;: &quot;cli-react&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="109:7516" ph="{...}" />
-            <marker date="1516026897652" expanded="true" signature="4903:4911" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="4931:5101" ph="{&quot;version&quot;: &quot;1.0.5&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="5118:5338" ph="{&quot;version&quot;: &quot;0.6.2&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="5296:5332" ph="{&quot;resolve&quot;: &quot;1.5.0&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="5355:6173" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="5533:5626" ph="{&quot;colors&quot;: &quot;0.5.1&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="5650:6167" ph="{...}" />
-            <marker date="1516026897652" expanded="true" signature="5670:5848" ph="{&quot;version&quot;: &quot;0.5.1&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="5871:6159" ph="{&quot;version&quot;: &quot;0.2.14&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="6071:6149" ph="{&quot;lru-cache&quot;: &quot;2.7.3&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="6190:6475" ph="{&quot;version&quot;: &quot;1.5.0&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="6430:6469" ph="{&quot;path-parse&quot;: &quot;1.0.5&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="6492:6767" ph="{&quot;version&quot;: &quot;0.7.8&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="6670:6761" ph="{&quot;glob&quot;: &quot;7.1.2&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="6784:6948" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="6968:7138" ph="{&quot;version&quot;: &quot;1.4.4&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="7160:7334" ph="{&quot;version&quot;: &quot;0.1.1&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="7350:7512" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
-            <marker date="1516026897652" expanded="true" signature="7504:7512" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
+            <marker date="1516029963539" expanded="true" signature="38426:38434" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -435,18 +401,18 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
             <folding>
-              <marker date="1516028207853" expanded="true" signature="1006:1074" ph="..." />
-              <marker date="1516028207853" expanded="true" signature="1095:1151" ph="{...}" />
-              <marker date="1516028207853" expanded="true" signature="1169:1172" ph="{...}" />
-              <marker date="1516028207853" expanded="true" signature="1241:1249" ph="..." />
-              <marker date="1516028207853" expanded="true" signature="1241:1309" ph="..." />
-              <marker date="1516028207853" expanded="true" signature="1340:1469" ph="{...}" />
-              <marker date="1516028207853" expanded="true" signature="1362:1385" ph="{...}" />
-              <marker date="1516028207853" expanded="true" signature="1396:1467" ph="{...}" />
-              <marker date="1516028207853" expanded="true" signature="1487:1490" ph="{...}" />
+              <marker date="1516030186409" expanded="true" signature="926:994" ph="..." />
+              <marker date="1516030186409" expanded="true" signature="1015:1071" ph="{...}" />
+              <marker date="1516030186409" expanded="true" signature="1089:1092" ph="{...}" />
+              <marker date="1516030186409" expanded="true" signature="1161:1169" ph="..." />
+              <marker date="1516030186409" expanded="true" signature="1161:1229" ph="..." />
+              <marker date="1516030186409" expanded="true" signature="1260:1389" ph="{...}" />
+              <marker date="1516030186409" expanded="true" signature="1282:1305" ph="{...}" />
+              <marker date="1516030186409" expanded="true" signature="1316:1387" ph="{...}" />
+              <marker date="1516030186409" expanded="true" signature="1407:1410" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -463,16 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="255">
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding />
         </state>
       </provider>

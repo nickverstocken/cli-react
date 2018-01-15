@@ -13,7 +13,7 @@ let functional;
 let observable;
 let stylesheet;
 program
-    .version('2.0.5')
+    .version('2.0.6')
     .command('init <dir>')
     .option('-T , --typscript', 'Install with typescript')
     .action(createReact);
@@ -49,7 +49,7 @@ function createReactApp() {
         if (appName) {
             console.log("\nCreating react app...".cyan);
             try{
-                shell.exec(`create-react-app ${appName}`, (e, stdout, stderr) => {
+                shell.exec(`${require('path').dirname(require.main.filename)}/node_modules/create-react-app/index.js ${appName}`, (e, stdout, stderr) => {
                     if(stderr){
                         if(e == 127){
                             console.log(`create-react-app not installed \n install create-react-app first globally use :`.red);
@@ -113,6 +113,7 @@ function updatePackage_json() {
     })
 }
 function generateBoilerplate() {
+    console.log();
     console.log("\nGenerating boilerplate...".cyan);
     return new Promise(resolve=>{
         fs.unlinkSync(`${appDirectory}/src/App.css`);
@@ -120,7 +121,7 @@ function generateBoilerplate() {
         fs.unlinkSync(`${appDirectory}/src/App.test.js`);
         fs.unlinkSync(`${appDirectory}/src/index.css`);
         fs.unlinkSync(`${appDirectory}/src/logo.svg`);
-        fs.copySync('./templates', `${appDirectory}/src`);
+        fs.copySync(`${require('path').dirname(require.main.filename)}/templates`, `${appDirectory}/src`);
         resolve();
     })
 }

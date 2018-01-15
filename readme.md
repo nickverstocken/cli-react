@@ -5,8 +5,6 @@ A small cli for react that generates a starter boilerplate with mobx, sass, rout
 You can also generate new components with this package. 
 <br>
 ## Install
-create-react-app must be installed! <br>
->```npm install -g create-react-app```
 
 Run
 
