@@ -13,7 +13,7 @@ let functional;
 let observable;
 let stylesheet;
 program
-    .version('2.0.7')
+    .version('2.0.8')
     .command('init <dir>')
     .option('-T , --typscript', 'Install with typescript')
     .action(createReact);
@@ -40,7 +40,10 @@ async function createReact(dir) {
         await installPackages();
         await updatePackage_json();
         await generateBoilerplate();
-        console.log("All done");
+        shell.exec(`npm install`, {cwd: appDirectory}, (e) => {
+            console.log("All done");
+        });
+
     }
 
 }
