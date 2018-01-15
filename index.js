@@ -13,7 +13,7 @@ let functional;
 let observable;
 let stylesheet;
 program
-    .version('2.0.6')
+    .version('2.0.7')
     .command('init <dir>')
     .option('-T , --typscript', 'Install with typescript')
     .action(createReact);
@@ -107,7 +107,7 @@ function updatePackage_json() {
     };
     return new Promise(resolve => {
         console.log("\nUpdating package.json....".cyan);
-        shell.exec(`json -I -f package.json -e 'this.scripts=` + JSON.stringify(scripts) + "'", {cwd: appDirectory}, () => {
+        shell.exec(`${require('path').dirname(require.main.filename)}/node_modules/json/lib/json.js -I -f package.json -e 'this.scripts=` + JSON.stringify(scripts) + "'", {cwd: appDirectory}, () => {
             resolve();
         });
     })

@@ -1,6 +1,6 @@
 {
   "name": "cli-react",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "A npm package to generate a react boilerplate with : sass, mobx, routing, protected routes. Also with the possibilty to generate react components from the command line with options to generate stylesheet, functional components and observer components",
   "main": "index.js",
   "bin": {
