@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 let program = require('commander');
 let shell = require('shelljs');
 let colors = require('colors');
@@ -14,7 +13,7 @@ let functional;
 let observable;
 let stylesheet;
 program
-    .version('2.0.2')
+    .version('2.0.5')
     .command('init <dir>')
     .option('-T , --typscript', 'Install with typescript')
     .action(createReact);
@@ -37,24 +36,51 @@ async function createReact(dir) {
     if (!success) {
         console.log('Something went wrong while trying to create a new React app using create-react-app'.red);
         process.exit(1);
+    }else{
+        await installPackages();
+        await updatePackage_json();
+        await generateBoilerplate();
+        console.log("All done");
     }
-    await installPackages();
-    await updatePackage_json();
-    await generateBoilerplate();
-    console.log("All done");
+
 }
 function createReactApp() {
     return new Promise(resolve => {
         if (appName) {
             console.log("\nCreating react app...".cyan);
-            shell.exec(`./node_modules/create-react-app/index.js ${appName}`, () => {
-                console.log("Finished creating react app".green);
-                resolve(true)
-            })
+            try{
+                shell.exec(`create-react-app ${appName}`, (e, stdout, stderr) => {
+                    if(stderr){
+                        if(e == 127){
+                            console.log(`create-react-app not installed \n install create-react-app first globally use :`.red);
+                            console.log(`npm install -g create-react-app`.white);
+                            resolve(false);
+                            process.exit(1);
+                        }else{
+                            resolve(false);
+                            process.exit(1);
+                        }
+                    }else{
+                        console.log("Finished creating react app".green);
+                        resolve(true);
+                    }
+                });
+            }catch(e){
+                console.log('create-react-app not installed'.red);
+                console.log("\nInstalling create react app...".cyan);
+                shell.exec(`npm install -g create-react-app`, (e, stdout, stderr) => {
+                    console.log("Finished installing creating react app".green);
+                    createReactApp();
+                });
+                resolve(false);
+                process.exit(1);
+            }
+
         } else {
             console.log("\nNo app name was provided.".red);
             console.log("\nProvide an app name in the following format: ");
             console.log("\ncreate-nick-react ", "app-name\n".cyan);
+            resolve(false);
             process.exit(1);
         }
     })
