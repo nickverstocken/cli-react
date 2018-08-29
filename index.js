@@ -88,7 +88,7 @@ function createReactApp() {
 }
 function installPackages() {
   return new Promise(resolve => {
-    console.log("\nInstalling react-router, react-router-dom, react-lazy-route, axios, sass and mobx...".cyan);
+    console.log("\nInstalling react-router, react-router-dom, react-lazy-route, axios, sass and redux...".cyan);
     shell.exec(`npm install --save react-router react-router-dom react-lazy-route axios mobx mobx-react node-sass-chokidar npm-run-all`, { cwd: appDirectory }, (e) => {
       console.log("\nFinished installing packages\n".green);
       resolve()
@@ -108,7 +108,7 @@ function updatePackage_json() {
   };
   return new Promise(resolve => {
     console.log("\nUpdating package.json....".cyan);
-    shell.exec(`${require('path').dirname(require.main.filename)}/node_modules/json/lib/json.js -I -f package.json -e 'this.scripts=` + JSON.stringify(scripts) + "'", { cwd: appDirectory }, () => {
+    shell.exec(`node ${require('path').dirname(require.main.filename)}/node_modules/json/lib/json.js -I -f package.json -e 'this.scripts=` + JSON.stringify(scripts) + "'", { cwd: appDirectory }, () => {
       resolve();
     });
   })
