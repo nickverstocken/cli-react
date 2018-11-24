@@ -29,7 +29,7 @@ const :className = () => {
 const imports = {
   react: "import React, {Component} from 'react';",
   propTypes: "import PropTypes from 'prop-types';",
-stylesheet: "import './:className.css';",
+stylesheet: "import './:className.scss';",
   observable: "import { inject, observer } from 'mobx-react';",
   connect: "import {connect} from 'react-redux';"
 }
